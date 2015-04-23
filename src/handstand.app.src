@@ -1,0 +1,14 @@
+{application, handstand,
+ [{description, "An OTP application"}
+ ,{vsn, "0.1.0"}
+ ,{registered, []}
+ ,{mod, {'handstand_app', []}}
+ ,{applications,
+   [kernel
+   ,stdlib
+   ,cowboy
+   ,jsx
+   ]}
+ ,{env,[]}
+ ,{modules, []}
+ ]}.
